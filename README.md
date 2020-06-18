@@ -104,7 +104,8 @@ class Comment(models.Model):
    좋아요한 영화 중 하나를 랜덤으로 뽑아 그 영화의 장르 중 하나를 고른 후, 해당 장르의 영화들 중  좋아요한 영화들의 평균 평점보다 높은 영화들만 걸러내어 그 중 기존 좋아요, 평점 작성한 영화 제외한 5개의 영화가 추천되도록 알고리즘을 구성하였다.
 
 4. 커뮤니티
-    
+   
+
   로그인 한 사용자만 글을 조회 / 생성 할 수 있고 본인만 글을 수정 / 삭제 할 수 있도록 하였다. 로그인 한 사용자만 게시글에 댓글을 작성할 수 있고 작성자 본인만 댓글을 수정 / 삭제 할 수 있도록 하였다. 각 게시글과 댓글에는 생성 / 수정 시각 정보를 포함하였다. 게시글 pagination을 구현하였다.
 
 5. 기타
@@ -113,7 +114,7 @@ class Comment(models.Model):
 
 <h4>배포 서버 URL</h4>
 
-https://bucketforseomi.s3.ap-northeast-2.amazonaws.com/
+http://bucketforseomi.s3-website.ap-northeast-2.amazonaws.com/
 
 <h4>기타(느낀점)</h4>
 
